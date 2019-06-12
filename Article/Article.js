@@ -9,7 +9,7 @@ class Article {
     this.closeButton = this.domElement.querySelector('.closeButton');
     // Using your expandButton reference, update the text on your expandButton to say "expand"
     this.expandButton.innerText = 'Click to Expand'; 
-    this.closeButton.innerText = 'Click to Close';
+    
     // Set a click handler on the expandButton reference, calling the expandArticle method.
     this.expandButton.addEventListener('click', () => this.expandArticle()); 
       
